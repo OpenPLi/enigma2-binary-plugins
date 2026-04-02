@@ -118,6 +118,7 @@ from .myFileList import FileList as myFileList
 from .ping import quiet_ping
 from .utils import getIPTVProvider, getAudio
 from .ymc import YMC
+from . import __version__
 
 # DEPENDING IMPORTS & GLOBALS & INITIALIZATION
 import ssl
@@ -174,6 +175,11 @@ if find_library("usb-0.1") is not None or find_library("usb-1.0") is not None:
 	print("[LCD4linux] libusb found :-)", getEnigmaVersionString())
 	USBok = True
 Version = "V5.0-r36"
+
+parts = __version__.split(".")
+lenght = len(parts)
+Version = "".join([f"{('V', '.', '-r')[idx]}{parts[idx]}" if idx < lenght else "" for idx in range(3)])  # fill up with '' if something is missing	
+>>>>>>> 4571caa8 ([LCD4linux] V5.0-r36 tiny bugfix):src/LCD4linux/plugin.py
 L4LElist = L4Lelement()
 L4LdoThread = True
 LCD4enigma2config = resolveFilename(SCOPE_CONFIG)  # /etc/enigma2/
