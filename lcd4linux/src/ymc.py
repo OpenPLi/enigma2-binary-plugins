@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-from __future__ import print_function, absolute_import
+from __future__ import absolute_import
 try:
 	import simplejson
 except ImportError:
 	import json as simplejson
-from six.moves.urllib.request import urlopen
 from .plugin import L4logE
+from urllib.request import urlopen
 
 
 class YMC:
