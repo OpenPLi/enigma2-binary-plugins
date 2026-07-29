@@ -10634,10 +10634,10 @@ def MoonDistance(now=None):
 	if now is None:
 		now = datetime.now()
 	diff = now - datetime(2000, 1, 1, 12, 0, 0)
-	t = diff.days + diff.seconds / 86400
-	GM = (134.96341138 + 13.064992953630 * t) * pi / 180
-	DD = (297.85020420 + 12.190749117502 * t) * pi / 90
-	return 385000.5584 - 20905.3550 * cos(GM) - 3699.1109 * cos(DD - GM) - 2955.9676 * cos(DD) - 569.9251 * cos(2 * GM)
+	t = diff.total_seconds() / 86400.0
+	GM = (134.96341138 + 13.064992953630 * t) * pi / 180.0
+	DD = (297.85020420 + 12.190749117502 * t) * pi / 180.0
+	return 385000.5584 - 20905.3550 * cos(GM) - 3699.1109 * cos(DD - GM) - 2955.9676 * cos(DD) - 569.9251 * cos(2.0 * GM)
 
 
 def LCD4linuxPIC(self, session):
