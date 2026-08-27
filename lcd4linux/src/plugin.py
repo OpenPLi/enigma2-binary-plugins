@@ -3082,7 +3082,7 @@ def getpiconres(x, y, full, picon, channelname, channelname2, P2, P2A, P2C):
 					if str(LCD4linux.BilderQuality.value) == "0":
 						pil_image = pil_image.resize((x, y))
 					else:
-						pil_image = pil_image.resize((x, y), Image.LANCZOS if PY3 else Image.ANTIALIAS)
+						pil_image = pil_image.resize((x, y), Image.Resampling.LANCZOS if PY3 else Image.ANTIALIAS)
 					s = statvfs(P2C)
 					if (s.f_bsize * s.f_bavail / 1024) < 100:
 						L4log("Error: Cache Directory near full")
@@ -11117,7 +11117,7 @@ def LCD4linuxPIC(self, session):
 							if LCD4linux.BilderQuality.value == "0":
 								pil_image = pil_image.resize((int(int(LCD4linux.WetterIconZoom.value) * Wmulti), y))
 							else:
-								pil_image = pil_image.resize((int(int(LCD4linux.WetterIconZoom.value) * Wmulti), y), Image.LANCZOS if PY3 else Image.ANTIALIAS)
+								pil_image = pil_image.resize((int(int(LCD4linux.WetterIconZoom.value) * Wmulti), y), Image.Resampling.LANCZOS if PY3 else Image.ANTIALIAS)
 							PY = POSY - int(20 * Wmulti) if ConfigType.startswith("5") else int(POSY + (int(40 * Wmulti) - y) / 2)
 							PX = POSX + int((27 * Wmulti) - int(int(LCD4linux.WetterIconZoom.value) * Wmulti) / 2)
 							self.im[Wim].paste(pil_image, (PX, PY + int(20 * Wmulti)))
@@ -11257,7 +11257,7 @@ def LCD4linuxPIC(self, session):
 							if str(LCD4linux.BilderQuality.value) == "0":
 								pil_image = pil_image.resize((x, y))
 							else:
-								pil_image = pil_image.resize((x, y), Image.LANCZOS if PY3 else Image.ANTIALIAS)
+								pil_image = pil_image.resize((x, y), Image.Resampling.LANCZOS if PY3 else Image.ANTIALIAS)
 							xx, yy = pil_image.size
 							PY = 1 - int(10 * Wmulti)
 						else:
@@ -11266,7 +11266,7 @@ def LCD4linuxPIC(self, session):
 							if str(LCD4linux.BilderQuality.value) == "0":
 								pil_image = pil_image.resize((x, y))
 							else:
-								pil_image = pil_image.resize((x, y), Image.LANCZOS if PY3 else Image.ANTIALIAS)
+								pil_image = pil_image.resize((x, y), Image.Resampling.LANCZOS if PY3 else Image.ANTIALIAS)
 							PY = int(POSY + (int(34 * Wmulti) - y) / 2)
 						self.im[Wim].paste(pil_image, (POSX, PY + int(20 * Wmulti)))
 					POSYs = POSY + {"2": 79, "1": 67}.get(LCD4linux.WetterWindLines.value, 56) * Wmulti if ConfigType.startswith("3") else POSY
@@ -11422,7 +11422,7 @@ def LCD4linuxPIC(self, session):
 						if str(LCD4linux.BilderQuality.value) == "0":
 							pil_image = pil_image.resize((int(40 * Wmulti), y))
 						else:
-							pil_image = pil_image.resize((int(40 * Wmulti), y), Image.LANCZOS if PY3 else Image.ANTIALIAS)
+							pil_image = pil_image.resize((int(40 * Wmulti), y), Image.Resampling.LANCZOS if PY3 else Image.ANTIALIAS)
 						PY = int(POSY + (int(40 * Wmulti) - y) / 2)
 						imW.paste(pil_image, (POSX, PY + int(15 * Wmulti)))
 					font = ImageFont.truetype(FONT, int(12 * Wmulti), encoding='unic')
@@ -11624,7 +11624,7 @@ def LCD4linuxPIC(self, session):
 					if str(LCD4linux.BilderQuality.value) == "0":
 						pil_image = pil_image.resize((ConfigSize, y))
 					else:
-						pil_image = pil_image.resize((ConfigSize, y), Image.LANCZOS if PY3 else Image.ANTIALIAS)
+						pil_image = pil_image.resize((ConfigSize, y), Image.Resampling.LANCZOS if PY3 else Image.ANTIALIAS)
 					POSX = getSplit(False, ConfigAlign, MAX_W, ConfigSize)
 					self.im[im].paste(pil_image, (POSX, ConfigPos))
 					pil_image.save(WWWpic % (str(PIC) + "p"))
@@ -11651,7 +11651,7 @@ def LCD4linuxPIC(self, session):
 					if str(LCD4linux.BilderQuality.value) == "0":
 						pil_image = pil_image.resize((x, y))
 					else:
-						pil_image = pil_image.resize((x, y), Image.LANCZOS if PY3 else Image.ANTIALIAS)
+						pil_image = pil_image.resize((x, y), Image.Resampling.LANCZOS if PY3 else Image.ANTIALIAS)
 					POSX = getSplit(ConfigSplit, ConfigAlign, MAX_W, x)
 					if LCD4linux.WetterTransparenz.value == "true":
 						pil_image = pil_image.convert("RGBA")
@@ -11694,7 +11694,7 @@ def LCD4linuxPIC(self, session):
 						if str(LCD4linux.BilderQuality.value) == "0":
 							self.ClockIm[ConfigNum] = self.ClockIm[ConfigNum].resize((x, y))
 						else:
-							self.ClockIm[ConfigNum] = self.ClockIm[ConfigNum].resize((x, y), Image.LANCZOS if PY3 else Image.ANTIALIAS)
+							self.ClockIm[ConfigNum] = self.ClockIm[ConfigNum].resize((x, y), Image.Resampling.LANCZOS if PY3 else Image.ANTIALIAS)
 						self.ClockName[ConfigNum] = [int(ConfigAnalog), y]
 					self.im[im].paste(self.ClockIm[ConfigNum], (POSX, ConfigPos), self.ClockIm[ConfigNum])
 					# Weekday in or underneath clockface
@@ -11723,7 +11723,7 @@ def LCD4linuxPIC(self, session):
 					if str(LCD4linux.BilderQuality.value) == "0":
 						pil_image = pil_image.resize((x1, y1))
 					else:
-						pil_image = pil_image.resize((x1, y1), Image.LANCZOS if PY3 else Image.ANTIALIAS)
+						pil_image = pil_image.resize((x1, y1), Image.Resampling.LANCZOS if PY3 else Image.ANTIALIAS)
 					S = int(strftime("%H")) % 12
 					pil_image = pil_image.rotate(360 - int(30 * S + int(int(strftime("%M")) / 2)), expand=False).convert("RGBA")  # 360/12
 					self.im[im].paste(pil_image, (POSX + int((x - x1) / 2), ConfigPos + int((y - y1) / 2)), pil_image)
@@ -11735,7 +11735,7 @@ def LCD4linuxPIC(self, session):
 					if str(LCD4linux.BilderQuality.value) == "0":
 						pil_image = pil_image.resize((x1, y1))
 					else:
-						pil_image = pil_image.resize((x1, y1), Image.LANCZOS if PY3 else Image.ANTIALIAS)
+						pil_image = pil_image.resize((x1, y1), Image.Resampling.LANCZOS if PY3 else Image.ANTIALIAS)
 					pil_image = pil_image.rotate(360 - int(6 * int(strftime("%M"))), expand=False).convert("RGBA")  # 360/60
 					self.im[im].paste(pil_image, (POSX + int((x - x1) / 2), ConfigPos + int((y - y1) / 2)), pil_image)
 					# Seconds: Due to the bad refresh rates, the second hand was deliberately not programmed!
@@ -11845,8 +11845,8 @@ def LCD4linuxPIC(self, session):
 					if ConfigSizeH > 0 and y > ConfigSizeH:
 						y = ConfigSizeH
 						x = int(float(y) / yy * xx)
-					pil_image = pil_image.resize((x, y), Image.LANCZOS if PY3 else Image.ANTIALIAS)
-					if ConfigTransp == True:
+					pil_image = pil_image.resize((x, y), Image.Resampling.LANCZOS if PY3 else Image.ANTIALIAS)
+					if ConfigTransp is True:
 						self.CoverIm = pil_image.convert("RGBA")
 					else:
 						self.CoverIm = pil_image.convert("RGB", dither=Image.NONE, palette=Image.ADAPTIVE)
@@ -11919,7 +11919,7 @@ def LCD4linuxPIC(self, session):
 				elif ConfigAlign == "8":
 					x, y = ConfigSize, ConfigSizeH
 				if str(LCD4linux.BilderQuality.value) == "2":
-					pil_image = pil_image.resize((x, y), Image.LANCZOS if PY3 else Image.ANTIALIAS)
+					pil_image = pil_image.resize((x, y), Image.Resampling.LANCZOS if PY3 else Image.ANTIALIAS)
 				else:
 					pil_image = pil_image.resize((x, y))
 				if ConfigSizeH > 0:
@@ -12228,7 +12228,7 @@ def LCD4linuxPIC(self, session):
 							if str(LCD4linux.BilderQuality.value) == "0":
 								self.PiconIm[Picon2] = self.PiconIm[Picon2].resize((ConfigSize, y))
 							else:
-								self.PiconIm[Picon2] = self.PiconIm[Picon2].resize((ConfigSize, y), Image.LANCZOS if PY3 else Image.ANTIALIAS)
+								self.PiconIm[Picon2] = self.PiconIm[Picon2].resize((ConfigSize, y), Image.Resampling.LANCZOS if PY3 else Image.ANTIALIAS)
 						self.PiconName[Picon2][1] = ""
 					except Exception:
 						self.PiconName[Picon2][1] = ""
@@ -13975,7 +13975,7 @@ def LCD4linuxPIC(self, session):
 				elif Mod[5] == "NAModule2":
 					E1 = E2 = self.WIND
 				else:
-					E1 = self.TEMPERATURE.decode()
+					E1 = self.TEMPERATURE
 					E2 = self.HUMIDITY
 				if Mod[5] == "NAModule2":
 					ShadowText(draw, POSX, POSY, Mod[0], font, getColor(i), ConfigShadow)
@@ -14047,8 +14047,8 @@ def LCD4linuxPIC(self, session):
 			ShadowText(draw, POSX, POSY, self.iT[ConfigStation].split(".")[0], font, ConfigColor[0], ConfigShadow)
 			w, h = getFsize(self.iT[ConfigStation].split(".")[0], font)
 			ShadowText(draw, POSX + w, POSY + int(h / 5 * 2), "." + self.iT[ConfigStation].split(".")[1], font2, ConfigColor[0], ConfigShadow)
-			ShadowText(draw, POSX + w, POSY, self.TEMPERATURE.decode(), font2, ConfigColor[0], ConfigShadow)
-			if ConfigName == True:
+			ShadowText(draw, POSX + w, POSY, self.TEMPERATURE, font2, ConfigColor[0], ConfigShadow)
+			if ConfigName is True:
 				wn, hn = getFsize(self.iName[ConfigStation], font3)
 				ADD = int(hn / 2)
 				ShadowText(draw, POSX + int((w1 + w2 - wn) / 2), POSY + h - ADD, self.iName[ConfigStation], font3, ConfigColor[0], ConfigShadow)
@@ -14663,7 +14663,7 @@ def LCD4linuxPIC(self, session):
 				if self.BackName[0] != [pil_open, getmtime(pil_open), LCD4linux.BilderBackground.value]:
 					self.BackName[0] = [pil_open, getmtime(pil_open), LCD4linux.BilderBackground.value]
 					if LCD4linux.BilderBackground.value == "1":
-						self.BackIm[0] = Image.open(pil_open).resize((MAX_W, MAX_H), Image.LANCZOS if PY3 else Image.ANTIALIAS).convert("RGB", dither=Image.NONE, palette=Image.ADAPTIVE)
+						self.BackIm[0] = Image.open(pil_open).resize((MAX_W, MAX_H), Image.Resampling.LANCZOS if PY3 else Image.ANTIALIAS).convert("RGB", dither=Image.NONE, palette=Image.ADAPTIVE)
 					else:
 						self.BackIm[0] = Image.open(pil_open).resize((MAX_W, MAX_H)).convert("P")
 					L4log("change Background")
@@ -14724,7 +14724,7 @@ def LCD4linuxPIC(self, session):
 							self.BackIm[1] = self.BackIm[0]
 						else:
 							if LCD4linux.BilderBackground.value == "1":
-								self.BackIm[1] = Image.open(pil_open).resize((MAX_W, MAX_H), Image.LANCZOS if PY3 else Image.ANTIALIAS).convert("RGB", dither=Image.NONE, palette=Image.ADAPTIVE)
+								self.BackIm[1] = Image.open(pil_open).resize((MAX_W, MAX_H), Image.Resampling.LANCZOS if PY3 else Image.ANTIALIAS).convert("RGB", dither=Image.NONE, palette=Image.ADAPTIVE)
 							else:
 								self.BackIm[1] = Image.open(pil_open).resize((MAX_W, MAX_H)).convert("P")
 						L4log("change Background")
@@ -14785,7 +14785,7 @@ def LCD4linuxPIC(self, session):
 							self.BackIm[2] = self.BackIm[0]
 						else:
 							if LCD4linux.BilderBackground.value == "1":
-								self.BackIm[2] = Image.open(pil_open).resize((MAX_W, MAX_H), Image.LANCZOS if PY3 else Image.ANTIALIAS).convert("RGB", dither=Image.NONE, palette=Image.ADAPTIVE)
+								self.BackIm[2] = Image.open(pil_open).resize((MAX_W, MAX_H), Image.Resampling.LANCZOS if PY3 else Image.ANTIALIAS).convert("RGB", dither=Image.NONE, palette=Image.ADAPTIVE)
 							else:
 								self.BackIm[2] = Image.open(pil_open).resize((MAX_W, MAX_H)).convert("P")
 						L4log("change Background")
