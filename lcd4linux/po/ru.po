@@ -194,7 +194,7 @@ msgid "- LCD 1 Background Color"
 msgstr "- LCD 1 Цвет фона"
 
 msgid "- LCD 1 Background-Picture [ok]>"
-msgstr "- LCD 1 Фон-картинка [ok]>"
+msgstr "- LCD 1 Фон-Картинка [ok]>"
 
 msgid "- LCD 1 Brightness"
 msgstr "- LCD 1 Яркость"
@@ -410,7 +410,7 @@ msgid "- Text Size"
 msgstr "- Размер текста"
 
 msgid "- Timeout [ms]"
-msgstr "- Тайм-аут [ms]"
+msgstr "- Тайм-аут [мс]"
 
 msgid "- Transparency"
 msgstr "- Прозрачность"
@@ -437,7 +437,7 @@ msgid "- Weather Type"
 msgstr "- Тип погоды"
 
 msgid "- Zoom"
-msgstr "- Увеличение"
+msgstr "- Зум"
 
 msgid "- external IP URL"
 msgstr "- внешний IP URL"
@@ -446,7 +446,7 @@ msgid "- extra Info"
 msgstr "- экстра инфо"
 
 msgid "- free Warning"
-msgstr "- бесплатно предупреждение"
+msgstr "- Предупреждение памяти"
 
 msgid "- max Width"
 msgstr "- ширина макс"
@@ -899,7 +899,7 @@ msgid "Config Restore All Settings"
 msgstr "Конфиг Восстановить все настройки"
 
 msgid "Console normal"
-msgstr "Konsole normal"
+msgstr "Обычная консоль"
 
 msgid "Corby@Pearl 128x128"
 msgstr "Corby@Pearl 128x128"
@@ -938,7 +938,7 @@ msgid "Date+Time"
 msgstr "Дата+Время"
 
 msgid "Date+Time+Weekday"
-msgstr "Дата + время + день недели"
+msgstr "Дата+время+день недели"
 
 msgid "Dates"
 msgstr "Даты"
@@ -986,7 +986,7 @@ msgid "Delete Logfile"
 msgstr "Удалить Лог-файл"
 
 msgid "Display Delay [ms]"
-msgstr "Задержка [ms]"
+msgstr "Задержка [мс]"
 
 msgid "Distance only"
 msgstr "Только расстояние"
@@ -1037,7 +1037,7 @@ msgid "External IP Address"
 msgstr "Внешний IP-адрес"
 
 msgid "Fastmode (2s)"
-msgstr "Быстрый режим (2s)"
+msgstr "Быстрый режим (2с)"
 
 msgid "Filename"
 msgstr "Имя файла"
@@ -1290,7 +1290,7 @@ msgid "Last Quarter"
 msgstr "Последняя четверть"
 
 msgid "Line"
-msgstr "- Линия"
+msgstr "Линия"
 
 msgid "List of Storage Devices"
 msgstr "Список устройств хранения"
@@ -1742,7 +1742,7 @@ msgid "Picture Quality for Resizing"
 msgstr "Картина Качество для изменения размера"
 
 msgid "Picture Quick Update Time [s]"
-msgstr "Картина Время обновления [s]"
+msgstr "Время обновления картинки [с]"
 
 msgid "Picture Sort"
 msgstr "Картина Сортировка"
@@ -2067,7 +2067,7 @@ msgid "Show"
 msgstr "Показать"
 
 msgid "Show 'no ....' Messages"
-msgstr "Показать 'нет...' Сообщения"
+msgstr "Показать 'нет...' Сообщений"
 
 msgid "Show Cover"
 msgstr "Показать обложку"
@@ -2136,19 +2136,19 @@ msgid "Standby"
 msgstr "Ожидание"
 
 msgid "Storage-Devices"
-msgstr "Хранение-Устройство"
+msgstr "Хранилище-Устройство"
 
 msgid "Storage-Devices: Color Back"
-msgstr "Хранение-Устройство: Цвет Задний план"
+msgstr "Хранилище-Устройство: Цвет Задний план"
 
 msgid "Storage-Devices: Color Bar"
-msgstr "Хранение-Устройство: Цвет Бар"
+msgstr "Хранилище-Устройство: Цвет Бар"
 
 msgid "Storage-Devices: Color Full"
-msgstr "Хранение-Устройство: Цвет Полный"
+msgstr "Хранилище-Устройство: Цвет Полный"
 
 msgid "Storage-Devices: Force Read"
-msgstr "Хранение-Устройство: Принудит Чтение"
+msgstr "Хранилище-Устройство: Принудит Чтение"
 
 msgid "Stutter TV"
 msgstr "Заикание TV"
@@ -2301,10 +2301,10 @@ msgid "Weather API-Key OpenWeatherMap"
 msgstr "Ваш API-ключ для OpenWeatherMap"
 
 msgid "Weather City"
-msgstr "Погода-Город"
+msgstr "Погода-Местоположени"
 
 msgid "Weather City 2"
-msgstr "Погода-Город 2"
+msgstr "Погода-Местоположение 2"
 
 msgid "Weather Extra Infos"
 msgstr "Погода-Экстра инфо"
@@ -2325,7 +2325,7 @@ msgid "Weather Transparency"
 msgstr "Погода Прозрачность"
 
 msgid "Weather Trendarrows"
-msgstr "трендов стрелки погодных"
+msgstr "Стрелки погодных трендов"
 
 msgid "Weather Wind Info Lines"
 msgstr "Линии информации о погоде и ветре"
@@ -2334,10 +2334,10 @@ msgid "Weather Wind speed unit"
 msgstr "Погода Ветер скорость единицы измерения"
 
 msgid "Weather-Icon Zoom"
-msgstr "Погода-Икона зум"
+msgstr "Зум погодных иконок"
 
 msgid "Weather-Icon-Path [ok]>"
-msgstr "Погода-Икона-Дорожка [ok]>"
+msgstr "Погодные иконки - путь [ok]>"
 
 msgid "WeatherUnlocked"
 msgstr "WeatherUnlocked"
@@ -2406,7 +2406,7 @@ msgid "blue"
 msgstr "синий"
 
 msgid "blueviolet"
-msgstr "blauviolett"
+msgstr "сине-фиолетовый"
 
 msgid "brown"
 msgstr "коричневый"
@@ -2418,7 +2418,7 @@ msgid "cache + adjustment (low quality, fast)"
 msgstr "тайник + корректирование (низкое качество, быстрый)"
 
 msgid "cadetblue"
-msgstr "cadetblue"
+msgstr "серо-голубой"
 
 msgid "center"
 msgstr "центр"
@@ -2439,7 +2439,7 @@ msgid "copy to On"
 msgstr "копировать в На"
 
 msgid "cornflowerblue"
-msgstr "cornflowerblue"
+msgstr "васильковый"
 
 #, python-format
 msgid "currently set : %s"
@@ -2458,10 +2458,10 @@ msgid "darkorange"
 msgstr "темнооранжевый"
 
 msgid "darkorchid"
-msgstr "dunkelorchidee"
+msgstr "темная орхидея"
 
 msgid "darkred"
-msgstr "dunkelrot"
+msgstr "темно-красный"
 
 msgid "db"
 msgstr "db"
@@ -2476,7 +2476,7 @@ msgid "db + BER"
 msgstr "db + BER"
 
 msgid "deeppink"
-msgstr "deeppink"
+msgstr "темно-розовый"
 
 msgid "deleted"
 msgstr "удаленный"
@@ -2497,7 +2497,7 @@ msgid "green"
 msgstr "зеленый"
 
 msgid "greenyellow"
-msgstr "greenyellow"
+msgstr "зеленовато-жёлтый"
 
 msgid "half left"
 msgstr "левая половина"
@@ -2509,16 +2509,16 @@ msgid "horizontally"
 msgstr "горизонтально"
 
 msgid "indianred"
-msgstr "indianrot"
+msgstr "индийский красный"
 
 msgid "indigo"
-msgstr "indigo"
+msgstr "индиго"
 
 msgid "km/h"
 msgstr "км/ч"
 
 msgid "lawngreen"
-msgstr "lawngreen"
+msgstr "газонзеленый"
 
 msgid "left"
 msgstr "слева"
@@ -2545,7 +2545,7 @@ msgid "magenta"
 msgstr "пурпурный"
 
 msgid "moccasin"
-msgstr "moccasin"
+msgstr "мокасин"
 
 msgid "no"
 msgstr "нет"
@@ -2638,7 +2638,7 @@ msgid "orange"
 msgstr "оранжевый"
 
 msgid "orangered"
-msgstr "orangered"
+msgstr "оранжево-красный"
 
 msgid "other"
 msgstr "прочие"
@@ -2656,7 +2656,7 @@ msgid "right"
 msgstr "справа"
 
 msgid "rosybrown"
-msgstr "rosigbraun"
+msgstr "розовато-коричневый"
 
 msgid "rpm"
 msgstr "rpm"
@@ -2668,7 +2668,7 @@ msgid "same color"
 msgstr "такого же цвета"
 
 msgid "sandybrown"
-msgstr "sandbraun"
+msgstr "песочно-коричневый"
 
 msgid "set Settings"
 msgstr "меню Настройки"
@@ -2692,7 +2692,7 @@ msgid "stop Screencycle"
 msgstr "остановить Screencycle"
 
 msgid "tomato"
-msgstr "tomato"
+msgstr "томат"
 
 msgid "trimmed (black)"
 msgstr "обрезается (черный)"
@@ -2746,7 +2746,7 @@ msgid "with Current 00:00 (below/Size 2)"
 msgstr "with Current 00:00 (below/Size 2)"
 
 msgid "with Icon"
-msgstr "mit Icon"
+msgstr "со значком"
 
 msgid "with Icon & Targetnumber"
 msgstr "со значком и целевым числом"
