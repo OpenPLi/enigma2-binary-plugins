@@ -194,7 +194,7 @@ msgid "- LCD 1 Background Color"
 msgstr "- LCD 1 Цвет фона"
 
 msgid "- LCD 1 Background-Picture [ok]>"
-msgstr "- LCD 1 Фон-Картинка [ok]>"
+msgstr "- LCD 1 Изоброжения фона [ok]>"
 
 msgid "- LCD 1 Brightness"
 msgstr "- LCD 1 Яркость"
@@ -212,7 +212,7 @@ msgid "- LCD 2 Background Color"
 msgstr "- LCD 2 Цвет фона"
 
 msgid "- LCD 2 Background-Picture [ok]>"
-msgstr "- LCD 2 Фон-Картинка [ok]>"
+msgstr "- LCD 2 Изоброжения фона [ok]>"
 
 msgid "- LCD 2 Brightness"
 msgstr "- LCD 2 Яркость"
@@ -230,7 +230,7 @@ msgid "- LCD 3 Background Color"
 msgstr "- LCD 3 Цвет фона"
 
 msgid "- LCD 3 Background-Picture [ok]>"
-msgstr "- LCD 3 Фон-Картинка [ok]>"
+msgstr "- LCD 3 Изоброжения фона [ok]>"
 
 msgid "- LCD 3 Brightness"
 msgstr "- LCD 3 Яркость"
@@ -776,10 +776,10 @@ msgid "Background"
 msgstr "Задний план"
 
 msgid "Background-Picture Type"
-msgstr "Задний план-Картина Тип"
+msgstr "Улучшение Изоброжения фона"
 
 msgid "Backup Config"
-msgstr "Задний план Конфиг"
+msgstr "Конфигурация Резервного копирования"
 
 msgid "Bar"
 msgstr "Бар"
