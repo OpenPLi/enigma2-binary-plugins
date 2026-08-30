@@ -20,11 +20,11 @@ msgstr "% + BER"
 
 #, python-format
 msgid "% + Load@1min"
-msgstr "% + Load@1min"
+msgstr "% + Загрузка@1мин"
 
 #, python-format
 msgid "% + Load@5min"
-msgstr "% + Load@5min"
+msgstr "% + Загрузка@5мин"
 
 #, python-format
 msgid "%d Mails  %d New  %s"
@@ -161,7 +161,7 @@ msgid "- File [ok]>"
 msgstr "- Файл [ok]>"
 
 msgid "- File or Path [ok]>"
-msgstr "- Файл или путь [ok]>"
+msgstr "- Путь к файлу [ok]>"
 
 msgid "- Find Cover File [ok]>"
 msgstr "- Найти Файл обложки [ok]>"
@@ -206,7 +206,7 @@ msgid "- LCD 1 Refresh"
 msgstr "- LCD 1 Обновить"
 
 msgid "- LCD 1 Rotate"
-msgstr "- LCD 1 чередовать"
+msgstr "- LCD 1 Вращение по оси"
 
 msgid "- LCD 2 Background Color"
 msgstr "- LCD 2 Цвет фона"
@@ -224,7 +224,7 @@ msgid "- LCD 2 Refresh"
 msgstr "- LCD 2 Обновить"
 
 msgid "- LCD 2 Rotate"
-msgstr "- LCD 2 Чередовать"
+msgstr "- LCD 2 Вращение по оси"
 
 msgid "- LCD 3 Background Color"
 msgstr "- LCD 3 Цвет фона"
@@ -242,7 +242,7 @@ msgid "- LCD 3 Refresh"
 msgstr "- LCD 3 Обновить"
 
 msgid "- LCD 3 Rotate"
-msgstr "- LCD 3 Чередовать"
+msgstr "- LCD 3 Вращение по оси"
 
 msgid "- LCD Auto-OFF"
 msgstr "- LCD Автоматическое отключение"
@@ -416,7 +416,7 @@ msgid "- Transparency"
 msgstr "- Прозрачность"
 
 msgid "- Trendarrows"
-msgstr "- стрелки тренда"
+msgstr "- Стрелки тренда"
 
 msgid "- Trimmed"
 msgstr "- Обрезанный"
@@ -446,7 +446,7 @@ msgid "- extra Info"
 msgstr "- экстра инфо"
 
 msgid "- free Warning"
-msgstr "- Предупреждение памяти"
+msgstr "- Предупреждение загрузки памяти"
 
 msgid "- max Width"
 msgstr "- ширина макс"
@@ -545,16 +545,16 @@ msgid "2 Days 2 Line"
 msgstr "2 дня 2 линии"
 
 msgid "2 x FastBackwardKey"
-msgstr "2 x <<"
+msgstr "2 x << Назад"
 
 msgid "2 x FastBackwardKey Type 2"
-msgstr "2x << Тип 2"
+msgstr "2x << Назад Тип 2"
 
 msgid "2 x FastForwardKey"
-msgstr "2 x  >>"
+msgstr "2 x  Вперёд >>"
 
 msgid "2 x FastForwardKey Type 2"
-msgstr "2 x >> Тип 2"
+msgstr "2 x Вперёд >> Тип 2"
 
 msgid "2 x InfoKey"
 msgstr "2 x EPG"
@@ -629,13 +629,13 @@ msgid "4"
 msgstr "4"
 
 msgid "4 Days 1 Line"
-msgstr "4 дня 1 линия"
+msgstr "4 Дня 1 линия"
 
 msgid "4 Days 2 Lines"
-msgstr "4 дня 2 линии"
+msgstr "4 Дня 2 линии"
 
 msgid "4 Days Vertical View"
-msgstr "4 дня вертикально"
+msgstr "4 Дня вертикально"
 
 msgid "40%"
 msgstr "40%"
@@ -659,13 +659,13 @@ msgid "5"
 msgstr "5"
 
 msgid "5 Days 1 Line"
-msgstr "5 дней в 1 линию"
+msgstr "5 Дней в 1 линию"
 
 msgid "5 Days 2 Lines"
-msgstr "5 дней в 2 линии"
+msgstr "5 Дней в 2 линии"
 
 msgid "5 Days Vertical View"
-msgstr "5 дней вертикально"
+msgstr "5 Дней вертикально"
 
 msgid "5%"
 msgstr "5%"
@@ -1004,16 +1004,13 @@ msgid "Download Logfile"
 msgstr "Скачать Лог-файл"
 
 msgid "E"
-msgstr "E"
+msgstr "В"
 
 msgid "ENE"
-msgstr "E"
-
-msgid "EPG"
-msgstr "EPG"
+msgstr "ВСВ"
 
 msgid "ESE"
-msgstr "E"
+msgstr "ВЮВ"
 
 msgid "Element"
 msgstr "Элемент"
@@ -1265,9 +1262,6 @@ msgstr "LCD выключен при выключении"
 msgid "LCD4Linux"
 msgstr "LCD4linux"
 
-msgid "LCD4linux"
-msgstr "LCD4linux"
-
 msgid "LCD4linux Display-Mode Idle"
 msgstr "Настройки показа LCD4linux В режиме ожидания"
 
@@ -1284,7 +1278,7 @@ msgid "LCD4linux Settings"
 msgstr "Глобальные настройки LCD4linux"
 
 msgid "LCD4linux enabled"
-msgstr "LCD4linux включен"
+msgstr "LCD4linux вкл/выкл"
 
 msgid "Last Quarter"
 msgstr "Последняя четверть"
@@ -1306,10 +1300,10 @@ msgid "Load File : %s"
 msgstr "Загрузить Файл : %s"
 
 msgid "Load@1min"
-msgstr "Загрузить@1мин"
+msgstr "Загрузка@1мин"
 
 msgid "Load@5min"
-msgstr "Загрузить@5мин"
+msgstr "Загрузка@5мин"
 
 msgid "Logfile extensive"
 msgstr "Подробный файл журнала"
@@ -1318,16 +1312,16 @@ msgid "Logfile normal"
 msgstr "Стандартный файл журнала"
 
 msgid "Long FastBackwardKey"
-msgstr "Долгое нажатие <<"
+msgstr "Долгое нажатие << Назад"
 
 msgid "Long FastBackwardKey Type 2"
-msgstr "Долгое нажатие << Тип 2"
+msgstr "Долгое нажатие << Назад Тип 2"
 
 msgid "Long FastForwardKey"
-msgstr "Долгое нажатие >>"
+msgstr "Долгое нажатие Вперёд >>"
 
 msgid "Long FastForwardKey Type 2"
-msgstr "Долгое нажатие >> Тип 2"
+msgstr "Долгое нажатие Вперёд >> Тип 2"
 
 msgid "Long InfoKey"
 msgstr "Долгое нажатие EPG"
@@ -1588,19 +1582,19 @@ msgid "Mute"
 msgstr "Без звука"
 
 msgid "N"
-msgstr "N"
+msgstr "С"
 
 msgid "NE"
-msgstr "NE"
+msgstr "СВ"
 
 msgid "NNE"
-msgstr "NNE"
+msgstr "ССВ"
 
 msgid "NNW"
-msgstr "NNW"
+msgstr "ССЗ"
 
 msgid "NW"
-msgstr "NW"
+msgstr "СЗ"
 
 msgid "Name"
 msgstr "Имя"
@@ -1853,19 +1847,19 @@ msgid "Restore Config"
 msgstr "Восстановить конфигурацию"
 
 msgid "S"
-msgstr "S"
+msgstr "Ю"
 
 msgid "SE"
-msgstr "SE"
+msgstr "ЮВ"
 
 msgid "SSE"
-msgstr "SSE"
+msgstr "ЮЮВ"
 
 msgid "SSW"
-msgstr "SSW"
+msgstr "ЮЮЗ"
 
 msgid "SW"
-msgstr "SW"
+msgstr "ЮЗ"
 
 msgid "Samsung SPF-1000P 1024x600"
 msgstr "Samsung SPF-1000P 1024x600"
@@ -1932,7 +1926,7 @@ msgid "Screen 1"
 msgstr "Экран 1"
 
 msgid "Screen 1 Changing Time"
-msgstr "Экран 1 Интервал времени"
+msgstr "- Экран 1 Интервал времени"
 
 msgid "Screen 1+2"
 msgstr "Экран 1+2"
@@ -2028,10 +2022,10 @@ msgid "Screen 9"
 msgstr "Экран 9"
 
 msgid "Screen Switch Select - LCD"
-msgstr "Экран Выключатель Выбирать - LCD"
+msgstr "Выбор переключения LCD"
 
 msgid "Screen Switch Select - Screen"
-msgstr "Экран Выключатель Выбирать - Экран"
+msgstr "Выбор переключения экрана"
 
 msgid "Screens used for Changing"
 msgstr "Экраны используется для изменения"
@@ -2163,19 +2157,19 @@ msgid "Switch FrameBuffer [if possible]"
 msgstr "Выключатель Кадровый буфер [если возможно]"
 
 msgid "TV"
-msgstr "TV"
+msgstr "ТВ"
 
 msgid "TV (full)"
-msgstr "TV (полный)"
+msgstr "ТВ (полный)"
 
 msgid "TV+OSD"
-msgstr "TV+OSD"
+msgstr "ТВ+OSD"
 
 msgid "TV+Radio"
-msgstr "TV+Radio"
+msgstr "ТВ+Радио"
 
 msgid "TV+Radio+Media"
-msgstr "TV+Радио+Медиа"
+msgstr "ТВ+Радио+Медиа"
 
 msgid "Temperature"
 msgstr "Температура"
@@ -2199,10 +2193,10 @@ msgid "Time"
 msgstr "Время"
 
 msgid "Time+Duration+Info"
-msgstr "Время +Продолжительность+Информация"
+msgstr "Время+Продолжительность+Информация"
 
 msgid "Time+Info"
-msgstr "Время +Информация"
+msgstr "Время+Информация"
 
 msgid "Time+Length+Info"
 msgstr "Время+Длинна+Инфо"
@@ -2247,13 +2241,13 @@ msgid "Volume"
 msgstr "Громкость"
 
 msgid "W"
-msgstr "W"
+msgstr "З"
 
 msgid "WNW"
-msgstr "WNW"
+msgstr "ЗСЗ"
 
 msgid "WSW"
-msgstr "WSW"
+msgstr "ЗЮЗ"
 
 msgid "WWW ApiKey from cloudconvert.org"
 msgstr "WWW ApiKey из cloudconvert.org"
@@ -2292,7 +2286,7 @@ msgid "Weather 2"
 msgstr "Погода 2"
 
 msgid "Weather API"
-msgstr ""
+msgstr "Поставщик погоды"
 
 msgid "Weather API-ID Key WeatherUnlocked"
 msgstr "Ваш API-ID ключ WeatherUnlocked"
@@ -2316,10 +2310,10 @@ msgid "Weather Lines"
 msgstr "Погода-Линии"
 
 msgid "Weather Low Temperature Color"
-msgstr "Низкая температура(погода)-Цвет"
+msgstr "Погода - Цвет низкой температуры"
 
 msgid "Weather Rain Chance"
-msgstr "Возможен дождь"
+msgstr "Погода - Возможен дождь"
 
 msgid "Weather Transparency"
 msgstr "Погода Прозрачность"
@@ -2412,10 +2406,10 @@ msgid "brown"
 msgstr "коричневый"
 
 msgid "cache + adjustment (high quality, slow)"
-msgstr "тайник + корректирование (высокое качество, медленный)"
+msgstr "кеширование+коррекция (высокое качество но медленно)"
 
 msgid "cache + adjustment (low quality, fast)"
-msgstr "тайник + корректирование (низкое качество, быстрый)"
+msgstr "кеширование+коррекция (низкое качество но быстро)"
 
 msgid "cadetblue"
 msgstr "серо-голубой"
@@ -2443,7 +2437,7 @@ msgstr "васильковый"
 
 #, python-format
 msgid "currently set : %s"
-msgstr "настоящее время установлен : %s"
+msgstr "в настоящее время установлено : %s"
 
 msgid "cyan"
 msgstr "голубой"
@@ -2482,7 +2476,7 @@ msgid "deleted"
 msgstr "удаленный"
 
 msgid "disabled"
-msgstr "выключен"
+msgstr "выкл"
 
 msgid "full Screen"
 msgstr "во весь экран"
@@ -2855,3 +2849,15 @@ msgstr "да, долго"
 
 msgid "yes, short"
 msgstr "да, коротко"
+
+msgid "Weather Humidity Color"
+msgstr "Погода - цвет влажности"
+
+msgid "Screen Default after mode change - Screen"
+msgstr "Экран по умолчанию после смены режима — Экран"
+
+msgid "last Screen"
+msgstr "Последний экран"
+
+msgid "Show Streams '4097; 5001...5003' in Mode"
+msgstr "Показывать потоки '4097; 5001...5003' в режиме"
