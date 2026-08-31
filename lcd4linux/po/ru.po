@@ -152,7 +152,7 @@ msgid "- Extra Color City"
 msgstr "- Дополнительные цвета городов"
 
 msgid "- Extra Zoom"
-msgstr "- Экстра увеличение"
+msgstr "- Экстра зум"
 
 msgid "- Fast Grab lower quality"
 msgstr "- Быстрый Grab низкого качества"
@@ -203,7 +203,7 @@ msgid "- LCD 1 Night Reduction"
 msgstr "- LCD 1 Ночное сокращение"
 
 msgid "- LCD 1 Refresh"
-msgstr "- LCD 1 Обновить"
+msgstr "- LCD 1 Обновлять"
 
 msgid "- LCD 1 Rotate"
 msgstr "- LCD 1 Вращение по оси"
@@ -539,10 +539,10 @@ msgid "2 - side by side"
 msgstr "2 - бок о бок"
 
 msgid "2 Days 1 Line"
-msgstr "2 дня 1 линия"
+msgstr "2 Дня 1 линия"
 
 msgid "2 Days 2 Line"
-msgstr "2 дня 2 линии"
+msgstr "2 Дня 2 линии"
 
 msgid "2 x FastBackwardKey"
 msgstr "2 x << Назад"
@@ -758,16 +758,16 @@ msgid "Always New"
 msgstr "Всегда новые"
 
 msgid "Analog"
-msgstr "Аналоговый"
+msgstr "Аналоговые"
 
 msgid "Analog+Date"
-msgstr "Аналоговые+дата"
+msgstr "Аналоговые+Дата"
 
 msgid "Analog+Date+Weekday"
-msgstr "Аналоговые+дата+будни"
+msgstr "Аналоговые+Дата+Текущий день"
 
 msgid "Analog+Date+Weekday 2"
-msgstr "Аналоговые+дата+будни 2"
+msgstr "Аналоговые+Дата+Текущий день2"
 
 msgid "Audio/Video"
 msgstr "Аудио/Видео"
@@ -938,7 +938,7 @@ msgid "Date+Time"
 msgstr "Дата+Время"
 
 msgid "Date+Time+Weekday"
-msgstr "Дата+время+день недели"
+msgstr "Дата+Время+Текущий день"
 
 msgid "Dates"
 msgstr "Даты"
@@ -1043,10 +1043,10 @@ msgid "First Quarter"
 msgstr "Первая четверть"
 
 msgid "Flaps Design Date"
-msgstr "Закрылки Дизайн Дата"
+msgstr "FlipClock+Дата"
 
 msgid "Flaps Design Weekday"
-msgstr "Закрылки Дизайн Будний день"
+msgstr "FlipClock+Текущий день"
 
 msgid "Font"
 msgstr "Шрифт"
@@ -1212,7 +1212,7 @@ msgid "LCD 1"
 msgstr "LCD 1"
 
 msgid "LCD 1 Type"
-msgstr "LCD 1 Тип"
+msgstr "LCD 1 Тип ЖК дисплея"
 
 msgid "LCD 1+2"
 msgstr "LCD 1+2"
@@ -1230,7 +1230,7 @@ msgid "LCD 2"
 msgstr "LCD 2"
 
 msgid "LCD 2 Type"
-msgstr "LCD 2 Тип"
+msgstr "LCD 2 Тип ЖК дисплея"
 
 msgid "LCD 2+3"
 msgstr "LCD 2+3"
@@ -1239,7 +1239,7 @@ msgid "LCD 3"
 msgstr "LCD 3"
 
 msgid "LCD 3 Type"
-msgstr "LCD 3 Тип"
+msgstr "LCD 3 Тип ЖК дисплея"
 
 msgid "LCD Custom Height"
 msgstr "LCD Своя высота"
@@ -1369,7 +1369,7 @@ msgid "MSN"
 msgstr "MSN"
 
 msgid "MUTE or defined Keys"
-msgstr "Немой или определенные ключи"
+msgstr "MUTE или определенные ключи"
 
 msgid "Mail"
 msgstr "Почта"
@@ -1861,6 +1861,9 @@ msgstr "ЮЮЗ"
 msgid "SW"
 msgstr "ЮЗ"
 
+msgid "SW"
+msgstr "ЮЗ"
+
 msgid "Samsung SPF-1000P 1024x600"
 msgstr "Samsung SPF-1000P 1024x600"
 
@@ -2025,10 +2028,10 @@ msgid "Screen Switch Select - LCD"
 msgstr "Выбор переключения LCD"
 
 msgid "Screen Switch Select - Screen"
-msgstr "Выбор переключения экрана"
+msgstr "Выбрать переключение экрана — Экран"
 
 msgid "Screens used for Changing"
-msgstr "Экраны используется для изменения"
+msgstr "Задействовать экраны для переключения по интервалу"
 
 msgid "Service search first"
 msgstr "Поиск услуги в первую очередь"
@@ -2154,7 +2157,7 @@ msgid "Sunrise"
 msgstr "Восход солнца"
 
 msgid "Switch FrameBuffer [if possible]"
-msgstr "Выключатель Кадровый буфер [если возможно]"
+msgstr "Выключатель FrameBuffer [если возможно]"
 
 msgid "TV"
 msgstr "ТВ"
@@ -2304,13 +2307,13 @@ msgid "Weather Extra Infos"
 msgstr "Погода-Экстра инфо"
 
 msgid "Weather High Temperature Color"
-msgstr "Высокая температура(погода)-Цвет"
+msgstr "Погода - Цвет максимальной температуры"
 
 msgid "Weather Lines"
 msgstr "Погода-Линии"
 
 msgid "Weather Low Temperature Color"
-msgstr "Погода - Цвет низкой температуры"
+msgstr "Погода - Цвет минимальной температуры"
 
 msgid "Weather Rain Chance"
 msgstr "Погода - Возможен дождь"
@@ -2325,7 +2328,7 @@ msgid "Weather Wind Info Lines"
 msgstr "Линии информации о погоде и ветре"
 
 msgid "Weather Wind speed unit"
-msgstr "Погода Ветер скорость единицы измерения"
+msgstr "Погода - единицы измерения скорости ветра"
 
 msgid "Weather-Icon Zoom"
 msgstr "Зум погодных иконок"
@@ -2367,7 +2370,7 @@ msgid "Week+Header"
 msgstr "Неделя+Заголовок"
 
 msgid "Weekday"
-msgstr "Будний день"
+msgstr "Текущий день"
 
 msgid "Wind"
 msgstr "Ветер"
@@ -2854,7 +2857,7 @@ msgid "Weather Humidity Color"
 msgstr "Погода - цвет влажности"
 
 msgid "Screen Default after mode change - Screen"
-msgstr "Экран по умолчанию после смены режима — Экран"
+msgstr "Экран по умолчанию после смены режима - Экран"
 
 msgid "last Screen"
 msgstr "Последний экран"
