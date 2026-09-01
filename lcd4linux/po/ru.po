@@ -911,7 +911,7 @@ msgid "Corner+Timeshift"
 msgstr "Угол+сдвиг во времени"
 
 msgid "Coversearch"
-msgstr "Обложка поиск"
+msgstr "Поиск обложки"
 
 msgid "Crashlog"
 msgstr "Креш лог"
