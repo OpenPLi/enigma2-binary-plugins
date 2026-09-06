@@ -11104,7 +11104,7 @@ def LCD4linuxPIC(self, session):
 						L4logE("Icon:", Icon)
 						if isfile(join(UseWetterPath, Icon)):
 							pil_image = Image.open(join(UseWetterPath, Icon))
-							xx, yy = pil_image.sizeConfigType
+							xx, yy = pil_image.size
 							y = int(float(int(LCD4linux.WetterIconZoom.value) * Wmulti) / xx * yy)
 							if LCD4linux.BilderQuality.value == "0":
 								pil_image = pil_image.resize((int(int(LCD4linux.WetterIconZoom.value) * Wmulti), y))
