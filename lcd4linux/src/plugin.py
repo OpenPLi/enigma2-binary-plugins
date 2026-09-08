@@ -174,7 +174,6 @@ USBok = False
 if find_library("usb-0.1") is not None or find_library("usb-1.0") is not None:
 	print("[LCD4linux] libusb found :-)", getEnigmaVersionString())
 	USBok = True
-Version = "V5.0-r36"
 
 parts = __version__.split(".")
 lenght = len(parts)
