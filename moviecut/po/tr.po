@@ -1,0 +1,133 @@
+# Turkish translations for enigma2-binary-plugins.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MovieCut\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-26 11:30+0200\n"
+"PO-Revision-Date: 2026-10-16 10:00+0300\n"
+"Last-Translator: audi06_19 <info@dreamosat-forum.com>\n"
+"Language-Team: Turkish\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Advanced cut specification..."
+msgstr "Gelişmiş kesme ayarları..."
+
+#, python-format
+msgid ""
+"Another movie is currently cut.\n"
+"The movie \"%s\" will be cut in the background after it."
+msgstr ""
+"Şu anda başka bir film kesiliyor.\n"
+"\"%s\" filmi onun ardından arka planda kesilecek."
+
+msgid "Bad arguments"
+msgstr "Geçersiz parametreler"
+
+msgid "Cancel"
+msgstr "İptal"
+
+msgid "Choose target folder"
+msgstr "Hedef klasörü seçin"
+
+msgid "Couldn't open input .ap file"
+msgstr "Girdi .ap dosyası açılamadı"
+
+msgid "Couldn't open input .cuts file"
+msgstr "Girdi .cuts dosyası açılamadı"
+
+msgid "Couldn't open input .ts file"
+msgstr "Girdi .ts dosyası açılamadı"
+
+msgid "Couldn't open output .ap file"
+msgstr "Çıktı .ap dosyası açılamadı"
+
+msgid "Couldn't open output .cuts file"
+msgstr "Çıktı .cuts dosyası açılamadı"
+
+msgid "Couldn't open output .ts file"
+msgstr "Çıktı .ts dosyası açılamadı"
+
+msgid "Cut Parameter Input"
+msgstr "Kesme parametreleri"
+
+msgid "Cut source:"
+msgstr "Kesme kaynağı:"
+
+msgid "Cutlist"
+msgstr "Kesme listesi"
+
+msgid "Cuts (an IN OUT IN OUT ... sequence of hour:min:sec)"
+msgstr "Kesimler (saat:dakika:saniye biçiminde GİRİŞ ÇIKIŞ GİRİŞ ÇIKIŞ ...)"
+
+#, python-format
+msgid "Cutting failed for movie \"%s\""
+msgstr "\"%s\" filmi kesilemedi"
+
+#, python-format
+msgid "Cutting was aborted for movie \"%s\""
+msgstr "\"%s\" filminin kesilmesi iptal edildi"
+
+msgid "Don't cut"
+msgstr "Kesme"
+
+msgid "Empty .ap file"
+msgstr ".ap dosyası boş"
+
+msgid "Execute cuts..."
+msgstr "Kesimleri uygula..."
+
+#, python-format
+msgid "How would you like to cut \"%s\"?"
+msgstr "\"%s\" nasıl kesilsin?"
+
+msgid "Manual specification"
+msgstr "Elle belirle"
+
+msgid "New description:"
+msgstr "Yeni açıklama:"
+
+msgid "New filename:"
+msgstr "Yeni dosya adı:"
+
+msgid "New location:"
+msgstr "Yeni konum:"
+
+msgid "New title:"
+msgstr "Yeni başlık:"
+
+msgid "No"
+msgstr "Hayır"
+
+msgid "No cuts specified"
+msgstr "Kesim noktası belirtilmedi"
+
+msgid "OK"
+msgstr "Tamam"
+
+msgid "Place the cut movie in a new file ending with \" cut\""
+msgstr "Kesilmiş filmi adı \" cut\" ile biten yeni bir dosyaya kaydet"
+
+msgid "Read/write error (disk full?)"
+msgstr "Okuma/yazma hatası (disk dolu olabilir)"
+
+msgid "Replace original:"
+msgstr "Orijinalin yerine koy:"
+
+msgid "Replace the original movie with the cut movie"
+msgstr "Orijinal filmi kesilmiş filmle değiştir"
+
+#, python-format
+msgid "The movie \"%s\" is cut in the background."
+msgstr "\"%s\" filmi arka planda kesiliyor."
+
+#, python-format
+msgid "The movie \"%s\" is successfully cut"
+msgstr "\"%s\" filmi başarıyla kesildi"
+
+msgid "Yes"
+msgstr "Evet"
