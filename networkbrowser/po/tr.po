@@ -5,13 +5,14 @@ msgstr ""
 "Project-Id-Version: e2 NetworkBrowser Plugin Turkish locale\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-29 00:28+0100\n"
-"PO-Revision-Date: 2009-02-23 18:43+0200\n"
-"Last-Translator: Zülfikar VEYİSOĞLU <zveyis@gmail.com>\n"
-"Language-Team: www.turkeyforum.com/satforum <zveyis@gmail.com>\n"
-"Language: \n"
+"PO-Revision-Date: 2026-10-16 10:00+0300\n"
+"Last-Translator: audi06_19 <info@dreamosat-forum.com>\n"
+"Language-Team: Turkish\n"
+"Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-Country: TURKEY\n"
 "X-Poedit-Language: Turkish\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -20,8 +21,8 @@ msgid ""
 "A mount entry with this name already exists!\n"
 "Update existing entry and continue?\n"
 msgstr ""
-"Bu isimde bir bağlantı kaydı zaten mevcut!\n"
-"Mevcut olanın üzerine yazmak ve devam etmek istiyor musunuz?\n"
+"Bu adda bir bağlantı kaydı zaten var!\n"
+"Mevcut kayıt güncellenip devam edilsin mi?\n"
 
 msgid "Active"
 msgstr "Etkin"
@@ -34,38 +35,38 @@ msgstr ""
 "Devre dışı"
 
 msgid "Add a new NFS or CIFS mount point to your Receiver."
-msgstr "Receiver'ınıza yeni bir NFS veya CIFS ağ bağlantı noktası ekleyin."
+msgstr "Alıcınıza yeni bir NFS veya CIFS bağlama noktası ekleyin."
 
 msgid "Add new network mount point"
-msgstr "Yeni ağ bağlantı noktası ekle"
+msgstr "Yeni ağ bağlama noktası ekle"
 
 msgid ""
 "Are you sure you want to save this network mount?\n"
 "\n"
 msgstr ""
-"Bu ağ bağlantı noktasını kaydetmek istiyor musunuz?\n"
+"Bu ağ bağlantısı kaydedilsin mi?\n"
 "\n"
 
 msgid "Attempt to mount shares again"
-msgstr ""
+msgstr "Paylaşımları yeniden bağlamayı dene"
 
 msgid "Attempt to recover lost mounts (in background)"
-msgstr ""
+msgstr "Kopan bağlantıları geri yüklemeyi dene (arka planda)"
 
 msgid "Browse network neighbourhood"
-msgstr "Ağ komşularına gözat"
+msgstr "Ağdaki cihazlara göz at"
 
 msgid "CIFS share"
-msgstr "CIFS paylaşım"
+msgstr "CIFS paylaşımı"
 
 msgid "Cancel"
-msgstr ""
+msgstr "İptal"
 
 msgid "Change hostname"
-msgstr "Konak adını değiştir"
+msgstr "Cihaz adını değiştir"
 
 msgid "Change the hostname of your Receiver."
-msgstr "Receiver'ınızın konak adını değiştirin."
+msgstr "Alıcınızın ağdaki adını değiştirin."
 
 msgid "Close"
 msgstr "Kapat"
@@ -74,74 +75,73 @@ msgid "Delete"
 msgstr "Sil"
 
 msgid "Delete mount"
-msgstr ""
+msgstr "Bağlantıyı sil"
 
 msgid "Dir:"
-msgstr "Klasör:"
+msgstr "Dizin:"
 
 msgid "Do you want to enter a username and password for this host?\n"
-msgstr "Bu konak için kullanıcı adı ve parola tanımlamak istiyor musunuz?\n"
+msgstr "Bu cihaz için kullanıcı adı ve parola girmek istiyor musunuz?\n"
 
 msgid "Enter IP to scan..."
-msgstr ""
+msgstr "Taranacak IP adresini girin..."
 
 msgid "Enter new hostname for your Receiver"
-msgstr "Receiver'ınızın yeni konak adını girin"
+msgstr "Alıcınızın yeni ağ adını girin"
 
 msgid "Enter password:"
-msgstr "Parola girin:"
+msgstr "Parolayı girin:"
 
 msgid "Enter user and password for host: "
-msgstr "Konak için kullanıcı adı ve parola girin: "
+msgstr "Şu cihaz için kullanıcı adı ve parola girin: "
 
 msgid "Enter username:"
-msgstr "Kullanıcı adı girin:"
+msgstr "Kullanıcı adını girin:"
 
 msgid "Expert"
-msgstr ""
+msgstr "Uzman"
 
 msgid "Finished restarting your network"
 msgstr "Ağ yeniden başlatıldı"
 
 msgid "Host name"
-msgstr ""
+msgstr "Cihaz adı"
 
 msgid "Host:"
-msgstr ""
+msgstr "Cihaz:"
 
 msgid "IP Address"
-msgstr ""
+msgstr "IP adresi"
 
 msgid "IP:"
 msgstr "IP:"
 
 msgid "Local mountpoint"
-msgstr ""
+msgstr "Yerel bağlama noktası"
 
 msgid "Manage network shares"
 msgstr "Ağ paylaşımlarını yönet"
 
 msgid "Manage your network shares..."
-msgstr "Ağ paylaşımlarını yönetin. "
+msgstr "Ağ paylaşımlarını yönet..."
 
 msgid "Mount again"
-msgstr ""
+msgstr "Yeniden bağla"
 
 msgid "Mount informations"
 msgstr "Bağlantı bilgileri"
 
 msgid "Mount options"
-msgstr "Bağlantı seçenekleri"
+msgstr "Bağlama seçenekleri"
 
 msgid "Mount type"
-msgstr "Bağlantı tipi"
+msgstr "Bağlantı türü"
 
-#, fuzzy
 msgid "Mount view"
-msgstr "Bağlantı noktalarına bak"
+msgstr "Bağlantı görünümü"
 
 msgid "MountManager"
-msgstr "Ağ diski yönetimi"
+msgstr "Bağlantı yöneticisi"
 
 msgid ""
 "Mounted/\n"
@@ -151,58 +151,58 @@ msgstr ""
 "Bağlı değil"
 
 msgid "Mountpoints management"
-msgstr "Bağlantı noktası yönetimi"
+msgstr "Bağlama noktalarını yönet"
 
 msgid "Mounts editor"
-msgstr "Bağlantı düzenleyici"
+msgstr "Bağlantı düzenleyicisi"
 
 msgid "Mounts management"
-msgstr "Ağ Diski Yönetimi"
+msgstr "Bağlantı yönetimi"
 
 msgid "NFS share"
-msgstr "NFS paylaşım"
+msgstr "NFS paylaşımı"
 
 msgid "NetworkBrowser"
-msgstr "Ağ gezgini"
+msgstr "Ağ tarayıcısı"
 
 msgid "No network devices found!"
-msgstr "Ağ aygıtı bulunamadı!"
+msgstr "Ağ cihazı bulunamadı!"
 
 msgid "Password"
 msgstr "Parola"
 
 msgid "Please wait for activation of your network mount..."
-msgstr "Ağ diski etkinleştirilirken lütfen bekleyin..."
+msgstr "Ağ bağlantınız etkinleştirilirken lütfen bekleyin..."
 
 msgid "Please wait while removing your network mount..."
-msgstr "Ağ diski kaldırılırken lütfen bekleyin..."
+msgstr "Ağ bağlantınız kaldırılırken lütfen bekleyin..."
 
 msgid "Please wait while updating your network mount..."
-msgstr "Ağ diski güncelleştirilirken lütfen bekleyin..."
+msgstr "Ağ bağlantınız güncellenirken lütfen bekleyin..."
 
 msgid "Please wait while your network is restarting..."
-msgstr "Ağ diski yeniden başlatılırken lütfen bekleyin..."
+msgstr "Ağınız yeniden başlatılırken lütfen bekleyin..."
 
 msgid "Press OK to activate the settings."
-msgstr "Onaylamak için OK tuşuna basın."
+msgstr "Ayarları etkinleştirmek için OK tuşuna basın."
 
 msgid "Press OK to collapse this host"
-msgstr ""
+msgstr "Bu cihazın listesini daraltmak için OK tuşuna basın"
 
 msgid "Press OK to edit selected settings."
-msgstr "Seçilen ayarları düzenlemek için OK tuşuna basın."
+msgstr "Seçili ayarları düzenlemek için OK tuşuna basın."
 
 msgid "Press OK to edit the settings."
-msgstr "Düzenlemek için OK tuşuna basın."
+msgstr "Ayarları düzenlemek için OK tuşuna basın."
 
 msgid "Press OK to expand this host"
-msgstr ""
+msgstr "Bu cihazın listesini genişletmek için OK tuşuna basın"
 
 msgid "Press OK to mount this share!"
-msgstr ""
+msgstr "Bu paylaşımı bağlamak için OK tuşuna basın!"
 
 msgid "Press OK to mount!"
-msgstr "Diski bağlamak için OK tuşuna basın."
+msgstr "Bağlamak için OK tuşuna basın!"
 
 msgid "Press OK to save settings."
 msgstr "Ayarları kaydetmek için OK tuşuna basın."
@@ -211,52 +211,53 @@ msgid "Press OK to select."
 msgstr "Seçmek için OK tuşuna basın."
 
 msgid "Rescan"
-msgstr ""
+msgstr "Yeniden tara"
 
 msgid "Scan NFS share"
-msgstr ""
+msgstr "NFS paylaşımını tara"
 
 msgid "Scan range"
-msgstr ""
+msgstr "Tarama aralığı"
 
 msgid "Search for network shares"
 msgstr "Ağ paylaşımlarını ara"
 
 msgid "Search for network shares..."
-msgstr "Ağ paylaşımlarını arayın. "
+msgstr "Ağ paylaşımlarını ara..."
 
 msgid "Searching your network. Please wait..."
 msgstr "Ağınız aranıyor. Lütfen bekleyin..."
 
 msgid "Server IP"
-msgstr "Sunucu IP"
+msgstr "Sunucu IP adresi"
 
 msgid "Server share"
-msgstr "Paylaşım klasörü"
+msgstr "Sunucu paylaşımı"
 
 msgid "User management"
 msgstr "Kullanıcı yönetimi"
 
 msgid "Usermanager"
-msgstr "Kullanıcı yönetimi"
+msgstr "Kullanıcı yöneticisi"
 
 msgid "Username"
 msgstr "Kullanıcı adı"
 
 msgid "View, edit or delete mountpoints on your Receiver."
-msgstr "Receiver'ınızdaki ağ bağlantı noktalarını inceleyin, düzenleyin veya silin."
+msgstr "Alıcınızdaki bağlama noktalarını görüntüleyin, düzenleyin veya silin."
 
 msgid "View, edit or delete usernames and passwords for your network."
-msgstr "Ağınızdaki kullanıcı hesaplarını inceleyin, düzenleyin veya silin."
+msgstr ""
+"Ağ kullanıcı adlarını ve parolalarını görüntüleyin, düzenleyin veya silin."
 
 msgid "Your network mount has been activated."
-msgstr "Ağ diski bağlantınız etkinleştirildi."
+msgstr "Ağ bağlantınız etkinleştirildi."
 
 msgid "Your network mount has been removed."
-msgstr "Ağ diski bağlantınız kaldırıldı."
+msgstr "Ağ bağlantınız kaldırıldı."
 
 msgid "Your network mount has been updated."
-msgstr "Ağ diski bağlantınız güncellendi."
+msgstr "Ağ bağlantınız güncellendi."
 
 msgid "use as HDD replacement"
-msgstr ""
+msgstr "HDD yerine kullan"
